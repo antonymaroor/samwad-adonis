@@ -27,7 +27,7 @@ class VideoSeeder {
             "url": "https://youtu.be/cgZjsvKko-s"
         },
         {
-            "category_id": 61,
+            "category_id": 51,
             "title":"Honda CB 1000RR",
             "thumbnail": Env.get('APP_URL')+'/default.png',
             "url": "https://youtu.be/hfuTJ9D04zA"
