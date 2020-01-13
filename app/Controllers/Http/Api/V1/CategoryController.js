@@ -32,7 +32,7 @@ class CategoryController {
   	}
     else
     {
-      data = {'error' : 'Please select a subcategory'}
+      data = 'Please select a subcategory'
       var resp = {'status':'error', 'data':data}
     }  
 
