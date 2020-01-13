@@ -36,7 +36,7 @@ class CategoryController {
       var resp = {'status':'error', 'data':data}
     }  
 
-  	return response.status(200).json(data)
+  	return response.status(200).json(resp)
   }
 
 }
