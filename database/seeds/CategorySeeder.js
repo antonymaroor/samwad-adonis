@@ -76,7 +76,7 @@ class CategorySeeder {
             "category_id":11,
         },
         {
-            "title": "Chat with us",
+            "title": "Loans - Chat with us",
             "icon": Env.get('APP_URL')+'/default.png',
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
@@ -93,7 +93,7 @@ class CategorySeeder {
             "category_id":21,
         },
         {
-            "title": "Chat with us",
+            "title": "Cards - Chat with us",
             "icon": Env.get('APP_URL')+'/default.png',
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
@@ -110,7 +110,7 @@ class CategorySeeder {
             "category_id":31,
         },
         {
-            "title": "Chat with us",
+            "title": "Insurance - Chat with us",
             "icon": Env.get('APP_URL')+'/default.png',
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
@@ -127,7 +127,7 @@ class CategorySeeder {
             "category_id":41,
         },
         {
-            "title": "Chat with us",
+            "title": "Investments - Chat with us",
             "icon": Env.get('APP_URL')+'/default.png',
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
