@@ -27,7 +27,7 @@ class CategoryController {
   	}
   	else if(category.redirect_type == 'chat')
   	{
-  		data = {chat_id : category.chat_id}
+  		data = {chat_keyword : category.chat_id}
       var resp = {'status':'success', 'data':data}
   	}
     else
