@@ -12,7 +12,7 @@ class CategoriesSchema extends Schema {
       table.text('short_description').nullable()
       table.text('long_description').nullable()
       table.string('redirect_type').nullable()
-      table.integer('chat_id').nullable()
+      table.string('chat_id', 254).nullable().unique()
       table.boolean('status').default(1)
       table.integer('category_id').nullable().unsigned().references('id').inTable('categories').onDelete('set null')
       table.timestamps()

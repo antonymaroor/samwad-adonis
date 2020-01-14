@@ -21,13 +21,13 @@ class VideoSeeder {
 
   	await Video.createMany([
         {
-            "category_id": 51,
+            "category_id": 5,
             "title": "Apache RR 310",
             "thumbnail": Env.get('APP_URL')+'/default.png',
             "url": "https://youtu.be/cgZjsvKko-s"
         },
         {
-            "category_id": 51,
+            "category_id": 5,
             "title":"Honda CB 1000RR",
             "thumbnail": Env.get('APP_URL')+'/default.png',
             "url": "https://youtu.be/hfuTJ9D04zA"

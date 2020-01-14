@@ -64,7 +64,7 @@ class CategorySeeder {
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
         	"redirect_type":"chat",
-        	"chat_id":1,
+        	"chat_id":"deposit_chat_with_us",
             "category_id":1,
         },
         {
@@ -73,7 +73,7 @@ class CategorySeeder {
             "short_description": "No laws exist that prevent you from keeping cash in a safe deposit box.",
             "long_description": "No laws exist that prevent you from keeping cash in a safe deposit box. However, while not illegal, bankers typically discourage customers from keeping cash in safe deposit boxes because funds inside the box are not insured.",
             "redirect_type":"video",
-            "category_id":11,
+            "category_id":1,
         },
         {
             "title": "Loans - Chat with us",
@@ -81,8 +81,8 @@ class CategorySeeder {
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "redirect_type":"chat",
-            "chat_id":1,
-            "category_id":11,
+            "chat_id":"loans_chat_with_us",
+            "category_id":1,
         },
         {
             "title": "Cards - How safe",
@@ -90,7 +90,7 @@ class CategorySeeder {
             "short_description": "No laws exist that prevent you from keeping cash in a safe deposit box.",
             "long_description": "No laws exist that prevent you from keeping cash in a safe deposit box. However, while not illegal, bankers typically discourage customers from keeping cash in safe deposit boxes because funds inside the box are not insured.",
             "redirect_type":"video",
-            "category_id":21,
+            "category_id":2,
         },
         {
             "title": "Cards - Chat with us",
@@ -98,8 +98,8 @@ class CategorySeeder {
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "redirect_type":"chat",
-            "chat_id":1,
-            "category_id":21,
+            "chat_id":"cards_chat_with_us",
+            "category_id":2,
         },
         {
             "title": "Insurance - How safe",
@@ -107,7 +107,7 @@ class CategorySeeder {
             "short_description": "No laws exist that prevent you from keeping cash in a safe deposit box.",
             "long_description": "No laws exist that prevent you from keeping cash in a safe deposit box. However, while not illegal, bankers typically discourage customers from keeping cash in safe deposit boxes because funds inside the box are not insured.",
             "redirect_type":"video",
-            "category_id":31,
+            "category_id":3,
         },
         {
             "title": "Insurance - Chat with us",
@@ -115,8 +115,8 @@ class CategorySeeder {
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "redirect_type":"chat",
-            "chat_id":1,
-            "category_id":31,
+            "chat_id":"insurance_chat_with_us",
+            "category_id":3,
         },
         {
             "title": "Investments - How safe",
@@ -124,7 +124,7 @@ class CategorySeeder {
             "short_description": "No laws exist that prevent you from keeping cash in a safe deposit box.",
             "long_description": "No laws exist that prevent you from keeping cash in a safe deposit box. However, while not illegal, bankers typically discourage customers from keeping cash in safe deposit boxes because funds inside the box are not insured.",
             "redirect_type":"video",
-            "category_id":41,
+            "category_id":4,
         },
         {
             "title": "Investments - Chat with us",
@@ -132,8 +132,8 @@ class CategorySeeder {
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "redirect_type":"chat",
-            "chat_id":1,
-            "category_id":41,
+            "chat_id":'investments_chat_with_us',
+            "category_id":4,
         },]);
 
   }
