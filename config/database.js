@@ -50,6 +50,7 @@ module.exports = {
   | npm i --save mysql
   |
   */
+
   mysql: {
     client: 'mysql',
     connection: {
@@ -71,6 +72,7 @@ module.exports = {
   | npm i --save pg
   |
   */
+  
   pg: {
     client: 'pg',
     connection: {

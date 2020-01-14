@@ -22,13 +22,13 @@ class VideoSeeder {
   	await Video.createMany([
         {
             "category_id": 6,
-            "title": "Deposit - sample",
+            "title": "Deposits - sample",
             "thumbnail": Env.get('APP_URL')+'/default.png',
             "url": Env.get('APP_URL')+'/default_video.mp4',
         },
         {
             "category_id": 8,
-            "title":"Loan - sample",
+            "title":"Loans - sample",
             "thumbnail": Env.get('APP_URL')+'/default.png',
             "url": Env.get('APP_URL')+'/default_video.mp4',
         },
