@@ -21,16 +21,34 @@ class VideoSeeder {
 
   	await Video.createMany([
         {
-            "category_id": 5,
-            "title": "Apache RR 310",
+            "category_id": 6,
+            "title": "Deposit - sample",
             "thumbnail": Env.get('APP_URL')+'/default.png',
-            "url": "https://youtu.be/cgZjsvKko-s"
+            "url": Env.get('APP_URL')+'/default_video.mp4',
         },
         {
-            "category_id": 5,
-            "title":"Honda CB 1000RR",
+            "category_id": 8,
+            "title":"Loan - sample",
             "thumbnail": Env.get('APP_URL')+'/default.png',
-            "url": "https://youtu.be/hfuTJ9D04zA"
+            "url": Env.get('APP_URL')+'/default_video.mp4',
+        },
+        {
+            "category_id": 10,
+            "title":"Cards - sample",
+            "thumbnail": Env.get('APP_URL')+'/default.png',
+            "url": Env.get('APP_URL')+'/default_video.mp4',
+        },
+        {
+            "category_id": 12,
+            "title":"Insurance - sample",
+            "thumbnail": Env.get('APP_URL')+'/default.png',
+            "url": Env.get('APP_URL')+'/default_video.mp4',
+        },
+        {
+            "category_id": 14,
+            "title":"Investments - sample",
+            "thumbnail": Env.get('APP_URL')+'/default.png',
+            "url": Env.get('APP_URL')+'/default_video.mp4',
         }]);
 
   }

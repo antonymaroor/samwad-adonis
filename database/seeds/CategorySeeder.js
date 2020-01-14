@@ -59,7 +59,7 @@ class CategorySeeder {
             "category_id":1,
         },
         {
-            "title": "Chat with us",
+            "title": "Deposits - Chat with us",
             "icon": Env.get('APP_URL')+'/default.png',
             "short_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
@@ -73,7 +73,7 @@ class CategorySeeder {
             "short_description": "No laws exist that prevent you from keeping cash in a safe deposit box.",
             "long_description": "No laws exist that prevent you from keeping cash in a safe deposit box. However, while not illegal, bankers typically discourage customers from keeping cash in safe deposit boxes because funds inside the box are not insured.",
             "redirect_type":"video",
-            "category_id":1,
+            "category_id":2,
         },
         {
             "title": "Loans - Chat with us",
@@ -82,7 +82,7 @@ class CategorySeeder {
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "redirect_type":"chat",
             "chat_id":"loans_chat_with_us",
-            "category_id":1,
+            "category_id":2,
         },
         {
             "title": "Cards - How safe",
@@ -90,7 +90,7 @@ class CategorySeeder {
             "short_description": "No laws exist that prevent you from keeping cash in a safe deposit box.",
             "long_description": "No laws exist that prevent you from keeping cash in a safe deposit box. However, while not illegal, bankers typically discourage customers from keeping cash in safe deposit boxes because funds inside the box are not insured.",
             "redirect_type":"video",
-            "category_id":2,
+            "category_id":3,
         },
         {
             "title": "Cards - Chat with us",
@@ -99,7 +99,7 @@ class CategorySeeder {
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "redirect_type":"chat",
             "chat_id":"cards_chat_with_us",
-            "category_id":2,
+            "category_id":3,
         },
         {
             "title": "Insurance - How safe",
@@ -107,7 +107,7 @@ class CategorySeeder {
             "short_description": "No laws exist that prevent you from keeping cash in a safe deposit box.",
             "long_description": "No laws exist that prevent you from keeping cash in a safe deposit box. However, while not illegal, bankers typically discourage customers from keeping cash in safe deposit boxes because funds inside the box are not insured.",
             "redirect_type":"video",
-            "category_id":3,
+            "category_id":4,
         },
         {
             "title": "Insurance - Chat with us",
@@ -116,7 +116,7 @@ class CategorySeeder {
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "redirect_type":"chat",
             "chat_id":"insurance_chat_with_us",
-            "category_id":3,
+            "category_id":4,
         },
         {
             "title": "Investments - How safe",
@@ -124,7 +124,7 @@ class CategorySeeder {
             "short_description": "No laws exist that prevent you from keeping cash in a safe deposit box.",
             "long_description": "No laws exist that prevent you from keeping cash in a safe deposit box. However, while not illegal, bankers typically discourage customers from keeping cash in safe deposit boxes because funds inside the box are not insured.",
             "redirect_type":"video",
-            "category_id":4,
+            "category_id":5,
         },
         {
             "title": "Investments - Chat with us",
@@ -133,7 +133,7 @@ class CategorySeeder {
             "long_description": "Free Chat Rooms Online With No Registration, you can enter and start chat without registration.",
             "redirect_type":"chat",
             "chat_id":'investments_chat_with_us',
-            "category_id":4,
+            "category_id":5,
         },]);
 
   }
