@@ -19,7 +19,7 @@ module.exports = {
   | interacting with SQL databases.
   |
   */
-  connection: 'mysql',
+  connection: 'pg',
 
   /*
   |--------------------------------------------------------------------------
