@@ -14,7 +14,7 @@ class CategoriesSchema extends Schema {
       table.string('redirect_type').nullable()
       table.string('chat_id', 254).nullable().unique()
       table.boolean('status').default(1)
-      table.integer('category_id').nullable().unsigned().references('id').inTable('categories').onDelete('set null')
+      table.integer('category_id').nullable().unsigned().references('id').inTable('categories').onDelete('cascade')
       table.timestamps()
     })
   }
